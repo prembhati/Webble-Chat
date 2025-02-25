@@ -2,7 +2,7 @@ import { v2 as cloudinary } from "cloudinary";
 import { config } from "dotenv";
 
 // Load environment variables first
-config({ path: '../../.env' });  // Adjust path according to your project structure
+config({ path: '../.env' });  // Adjust path according to your project structure
 
 // Now configure cloudinary with the env vars
 cloudinary.config({
