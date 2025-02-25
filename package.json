@@ -4,10 +4,14 @@
   "description": "![Demo App](/frontend/public/screenshot-for-readme.png)",
   "main": "index.js",
   "scripts": {
-   "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-   "start": "npm run start --prefix backend"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0"
+  }
 }
